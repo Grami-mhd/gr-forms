@@ -1,0 +1,20 @@
+import { FormArray } from '@angular/forms';
+/**
+ * GrFormArray
+ * an angular FormArray class that provides strong typed getters for controls and value
+ */
+export class GrFormArray extends FormArray {
+    /**
+     * same as FormArray.controls with better type safety
+     */
+    get grControls() {
+        return this.controls;
+    }
+    /**
+     * same as FormArray.value with better type safety
+     */
+    get grValue() {
+        return this.value;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ3ItZm9ybS1hcnJheS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2dyLWZvcm1zLyIsInNvdXJjZXMiOlsibGliL3R5cGVkLWZvcm1zL2dyLWZvcm0tYXJyYXkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFrQixTQUFTLEVBQUMsTUFBTSxnQkFBZ0IsQ0FBQztBQUUxRDs7O0dBR0c7QUFDSCxNQUFNLE9BQU8sV0FBOEUsU0FBUSxTQUFTO0lBRTFHOztPQUVHO0lBQ0gsSUFBVyxVQUFVO1FBQ25CLE9BQU8sSUFBSSxDQUFDLFFBQXlCLENBQUE7SUFDdkMsQ0FBQztJQUVEOztPQUVHO0lBQ0gsSUFBVyxPQUFPO1FBQ2hCLE9BQU8sSUFBSSxDQUFDLEtBQUssQ0FBQztJQUNwQixDQUFDO0NBRUYiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0Fic3RyYWN0Q29udHJvbCwgRm9ybUFycmF5fSBmcm9tICdAYW5ndWxhci9mb3Jtcyc7XG5cbi8qKlxuICogR3JGb3JtQXJyYXlcbiAqIGFuIGFuZ3VsYXIgRm9ybUFycmF5IGNsYXNzIHRoYXQgcHJvdmlkZXMgc3Ryb25nIHR5cGVkIGdldHRlcnMgZm9yIGNvbnRyb2xzIGFuZCB2YWx1ZVxuICovXG5leHBvcnQgY2xhc3MgR3JGb3JtQXJyYXk8Q29udHJvbFR5cGUgZXh0ZW5kcyBBYnN0cmFjdENvbnRyb2wsIFZhbHVlVHlwZSBleHRlbmRzIGFueSA9IGFueT4gZXh0ZW5kcyBGb3JtQXJyYXkge1xuXG4gIC8qKlxuICAgKiBzYW1lIGFzIEZvcm1BcnJheS5jb250cm9scyB3aXRoIGJldHRlciB0eXBlIHNhZmV0eVxuICAgKi9cbiAgcHVibGljIGdldCBnckNvbnRyb2xzKCk6IENvbnRyb2xUeXBlW10ge1xuICAgIHJldHVybiB0aGlzLmNvbnRyb2xzIGFzIENvbnRyb2xUeXBlW11cbiAgfVxuXG4gIC8qKlxuICAgKiBzYW1lIGFzIEZvcm1BcnJheS52YWx1ZSB3aXRoIGJldHRlciB0eXBlIHNhZmV0eVxuICAgKi9cbiAgcHVibGljIGdldCBnclZhbHVlKCk6IFZhbHVlVHlwZVtdIHtcbiAgICByZXR1cm4gdGhpcy52YWx1ZTtcbiAgfVxuXG59XG4iXX0=

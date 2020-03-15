@@ -1,0 +1,15 @@
+/*
+ * Public API Surface of gr-forms
+ */
+export * from './lib/gr-builder';
+export * from './lib/control-binder';
+export * from './lib/typed-forms/gr-form-group';
+export * from './lib/typed-forms/gr-form-array';
+/**
+ * build models
+ */
+export * from './lib/build-models/abstract';
+export * from './lib/build-models/group';
+export * from './lib/build-models/array';
+export * from './lib/build-models/control';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2dyLWZvcm1zLyIsInNvdXJjZXMiOlsicHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsa0JBQWtCLENBQUM7QUFDakMsY0FBYyxzQkFBc0IsQ0FBQztBQU1yQyxjQUFjLGlDQUFpQyxDQUFDO0FBQ2hELGNBQWMsaUNBQWlDLENBQUM7QUFFaEQ7O0dBRUc7QUFDSCxjQUFjLDZCQUE2QixDQUFDO0FBQzVDLGNBQWMsMEJBQTBCLENBQUM7QUFDekMsY0FBYywwQkFBMEIsQ0FBQztBQUN6QyxjQUFjLDRCQUE0QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBnci1mb3Jtc1xuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL2dyLWJ1aWxkZXInO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvY29udHJvbC1iaW5kZXInO1xuXG4vKipcbiAqIHR5cGVkIGRhdGEgdHlwZVxuICovXG5leHBvcnQgKiBmcm9tICcuL2xpYi90eXBlZC1mb3Jtcy9ncm91cC1jb250cm9scyc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi90eXBlZC1mb3Jtcy9nci1mb3JtLWdyb3VwJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL3R5cGVkLWZvcm1zL2dyLWZvcm0tYXJyYXknO1xuXG4vKipcbiAqIGJ1aWxkIG1vZGVsc1xuICovXG5leHBvcnQgKiBmcm9tICcuL2xpYi9idWlsZC1tb2RlbHMvYWJzdHJhY3QnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvYnVpbGQtbW9kZWxzL2dyb3VwJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2J1aWxkLW1vZGVscy9hcnJheSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9idWlsZC1tb2RlbHMvY29udHJvbCc7XG4iXX0=
